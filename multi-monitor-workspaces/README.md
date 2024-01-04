@@ -6,7 +6,7 @@ Minor modifications to steps 2 and 3 will be required for other numbers of monit
 
 1) Copy multi-monitor-workspaces.sh to .config/hypr/scripts/multi-monitor-workspaces.sh
 
-2) Assign workspaces to specific monitors where $Monitor1 is the monitor-id as shown by xrandr:
+2) Assign workspaces to specific monitors where $Monitor1, $Monitor2, etc. is the monitor-id as shown by xrandr:
 ```
 workspace=1, monitor:$Monitor1
 workspace=2, monitor:$Monitor2
